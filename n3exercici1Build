@@ -1,0 +1,6 @@
+use spotifydb
+
+db.createCollection("Users")
+db.createCollection("Artists")
+db.createCollection("Playlists")
+db.createCollection("TrashedPlaylists")
